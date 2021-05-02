@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <section>
+    <section className="navbar-style">
       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
           <a class="navbar-brand my-auto" href="#">
@@ -39,18 +39,22 @@ const Header = () => {
                 </Link>
               </li>
               <li class="nav-item ms-4 my-auto">
-                <Link class="nav-link" to="/projects">
+                <Link class="nav-link" to="/blogs">
                   Blogs
                 </Link>
               </li>
               <li class="nav-item ms-4 my-auto">
-                <a class="nav-link " href="#">
+                <Link class="nav-link" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
               <li class="nav-item ms-4  my-auto ">
-                <a class="nav-link me-0" href="#">
-                  <button>resume</button>
+                <a
+                  class="nav-link me-0"
+                  href="https://drive.google.com/uc?export=download&id=1DvztbxRmRyTgLFOS-6k0mKQAy3nwqCc4"
+                  download
+                >
+                  <button className="primary-btn">resume</button>
                 </a>
               </li>
             </ul>

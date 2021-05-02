@@ -1,13 +1,16 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import "./About.css";
+import profile from "../../images/profile2.png";
 
 const About = () => {
   return (
-    <section className="main-container">
+    <section className="main-container route-page">
       <Header></Header>
       <div className="row mt-4 d-flex justify-content-around">
-        <div className="col-md-5 about-section ">
+        <div className="col-md-5 about-section text-center">
+          <img className="text-center" src={profile} alt="" />
           <h3>
             <span>I'm</span> Mousumi Akter
           </h3>
@@ -31,7 +34,9 @@ const About = () => {
           </a>
         </div>
         <div className="col-md-6">
-          <h2>My Skills</h2>
+          <h2 className="title-text">
+            My Skills <span className="line-style"></span>
+          </h2>
           <div className="skills-container">
             <h4 className="skill-title">Expertise</h4>
             <span className="skills-name">React JS</span>
@@ -59,6 +64,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </section>
   );
 };

@@ -6,6 +6,7 @@ import img3 from "../../images/screenshot3.png";
 import img4 from "../../images/screenshoot4.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   useEffect(() => {
@@ -13,7 +14,9 @@ const Projects = () => {
   }, []);
   return (
     <section className="my-5 main-container">
-      <h3>My projects</h3>
+      <h3 className="title-text">
+        My projects<span className="line-style"></span>
+      </h3>
       <div className="card-section my-5">
         <div className="card-box " data-aos="fade-right">
           <div className="img-box">
@@ -32,9 +35,19 @@ const Projects = () => {
               <p className="tech-box">Stripe</p>
               <p className="tech-box">Firebase</p>
             </div>
-            <div className="icon-box">
-              <i class="fab fa-github icon-style"></i>
-              <i class="fas fa-external-link-alt icon-style"></i>
+            <div className="icon-box text-center pb-4 pt-3">
+              <a
+                href="https://github.com/MousumiMitu/fashionsta-portraits"
+                target="_blank"
+              >
+                <i class="fab fa-github icon-style"></i>
+              </a>
+              <a href="https://complete-web-client11.web.app/" target="_blank">
+                <i class="fas fa-external-link-alt icon-style"></i>
+              </a>
+              <Link to="/projects">
+                <i class="fas fa-ellipsis-h details-icon"></i>
+              </Link>
             </div>
           </div>
         </div>
@@ -54,9 +67,22 @@ const Projects = () => {
               <p className="tech-box">MongoDB</p>
               <p className="tech-box">Firebase</p>
             </div>
-            <div className="icon-box ">
-              <i class="fab fa-github icon-style"></i>
-              <i class="fas fa-external-link-alt icon-style"></i>
+            <div className="icon-box text-center pb-4 pt-3">
+              <a
+                href="https://github.com/MousumiMitu/fashion-finds-client"
+                target="_blank"
+              >
+                <i class="fab fa-github icon-style"></i>
+              </a>
+              <a
+                href="https://full-stack-project-3931b.web.app/"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt icon-style"></i>
+              </a>
+              <Link to="/projects">
+                <i class="fas fa-ellipsis-h details-icon"></i>
+              </Link>
             </div>
           </div>
         </div>
@@ -77,9 +103,19 @@ const Projects = () => {
               <p className="tech-box">CSS</p>
               <p className="tech-box">React router</p>
             </div>
-            <div className="icon-box ">
-              <i class="fab fa-github icon-style"></i>
-              <i class="fas fa-external-link-alt icon-style"></i>
+            <div className="icon-box text-center pb-4 pt-3">
+              <a
+                href="https://github.com/MousumiMitu/express-travel"
+                target="_blank"
+              >
+                <i class="fab fa-github icon-style"></i>
+              </a>
+              <a href="https://auth-rider-project.web.app/" target="_blank">
+                <i class="fas fa-external-link-alt icon-style"></i>
+              </a>
+              <Link to="/projects">
+                <i class="fas fa-ellipsis-h details-icon"></i>
+              </Link>
             </div>
           </div>
         </div>

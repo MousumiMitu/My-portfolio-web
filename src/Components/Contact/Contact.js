@@ -45,7 +45,11 @@ const Contact = () => {
             />
           </div>
           <div>
-            <textarea name="message" className="input-area" />
+            <textarea
+              name="message"
+              className="input-area"
+              placeholder="text..."
+            />
           </div>
           <div>
             <input type="submit" value="Send" className="input-btn mt-3" />

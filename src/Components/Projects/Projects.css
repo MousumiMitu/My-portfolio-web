@@ -36,11 +36,13 @@
   font-size: 23px;
   margin-right: 10px;
   bottom: 0;
+  color: #045c88;
 }
 .tech-box {
   font-size: 15px;
   padding: 5px;
-  background: rgb(245, 165, 101);
+  background: #f6d75a;
+
   margin-bottom: 5px;
   margin-right: 5px;
   text-align: center;
@@ -54,4 +56,12 @@
 .icon-box {
   height: 10px;
   margin: 10px 0;
+}
+.details-icon {
+  color: white;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 50%;
+  background: #045c88;
+  transform: translateY(-1px);
 }

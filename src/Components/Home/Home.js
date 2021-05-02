@@ -1,5 +1,7 @@
 import React from "react";
+import Blogs from "../Blogs/Blogs";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import HeaderMain from "../Header/HeaderMain/HeaderMain";
 import Projects from "../Projects/Projects";
@@ -14,24 +16,12 @@ const Home = () => {
             <Header></Header>
             <HeaderMain></HeaderMain>
           </div>
-          {/* <div class="custom-shape-divider-bottom-1619864649">
-            <svg
-              data-name="Layer 1"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1200 120"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M1200 0L0 0 892.25 114.72 1200 0z"
-                class="shape-fill"
-              ></path>
-            </svg>
-          </div> */}
         </div>
       </div>
-
       <Projects></Projects>
+      <Blogs></Blogs>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 };
