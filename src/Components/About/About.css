@@ -1,0 +1,37 @@
+.skills-container {
+  margin: 20px 0;
+}
+.skill-title {
+  font-weight: bold;
+  margin: 15px 0;
+}
+.skills-name {
+  margin-right: 10px;
+  padding: 5px 7px;
+  background-color: rgb(238, 155, 194);
+  display: inline-block;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  transition: 0.6s ease;
+}
+.skills-name:hover {
+  box-shadow: 1px 1px 5px gray;
+}
+.about-section {
+}
+.about-text {
+  width: 90%;
+  /* text-align: justify; */
+}
+.social-icon {
+  font-size: 25px;
+  margin-right: 10px;
+  color: rgb(217, 0, 255);
+}
+.social-icon .fab {
+  transition: 0.3s ease-in;
+}
+.social-icon .fab:hover {
+  color: rgb(217, 0, 255);
+  transform: scale(1.2);
+}

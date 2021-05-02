@@ -1,0 +1,22 @@
+.contact-section {
+  background: url("../../images/form-bg.jpg");
+  background-size: cover;
+  height: 400px;
+}
+.contact-form {
+  color: white;
+
+  width: 45%;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(1, 85, 76, 0.472);
+}
+.input-area {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.input-btn {
+  width: 100%;
+  margin-bottom: 15px;
+}
